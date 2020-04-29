@@ -1,0 +1,62 @@
+div {
+  display: block;
+}
+
+body {
+  font-family: Palatino;
+  font-size: 22px;
+  line-height: 1.7em;
+  color: #4d3e3e;
+  margin: 0;
+}
+
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #9c5518;
+  font-family: Cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #202040;
+}
+
+a:hover{
+  color: #f0a500;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 35px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
